@@ -1,0 +1,131 @@
+body {
+    font-family: 'Leiko', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #221515;
+    color: #F7E1BC;
+    overflow-x: hidden;
+    padding: 7px;
+    border: 2px solid #F7E1BC;
+}
+
+header {
+    background-color: #221515;
+    padding: 2rem 0;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    padding: 1rem 2rem; /* Adjust padding for better spacing */
+}
+.cup {
+   /* coffee-landing-transformed copy 1 */
+    display: flex;
+    width: 700px;
+    height: 700px;
+    margin-left: 36%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin: 0; /* Remove margin to align better */
+    text-shadow: 2px 2px #54372B;
+}
+
+nav {
+    flex-grow: 1; /* Allow nav to take available space */
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align nav items to the right */
+    margin-right: 50px;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: #F7E1BC;
+    font-weight: 500;
+    font-size: 20px;
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: #54372B;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.button {
+    background-color: #F7E1BC;
+    color: #221515;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius : 5px;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #54372B;
+    transform: scale(1.05);
+}
+
+.bottom {
+    background-color: #54372B;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: #221515;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
