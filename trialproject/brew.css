@@ -4,9 +4,8 @@ body {
     padding: 0;
     background-color: #221515;
     color: #F7E1BC;
-    overflow-x: hidden;
-    padding: 7px;
-    border: 2px solid #F7E1BC;
+    padding: 6px;
+    border: 1px solid #F7E1BC;
 }
 
 header {
@@ -20,18 +19,18 @@ header {
 .cup {
    /* coffee-landing-transformed copy 1 */
     display: flex;
-    width: 700px;
-    height: 700px;
-    margin-left: 36%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
+    justify-content: center; /* Align horizontally */
+    align-items: center;
+    height: 100vh;
+    margin-top: -55px;
 }
 
-
+img {
+    max-width: 100%;
+}
 h1 {
     font-family: 'Dancing Script', cursive;
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 0; /* Remove margin to align better */
     text-shadow: 2px 2px #54372B;
 }
@@ -59,7 +58,7 @@ nav a {
     text-decoration: none;
     color: #F7E1BC;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     transition: color 0.5s ease;
 }
 
@@ -129,3 +128,30 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.cup {
+    position: relative; /* Optional, for container-specific control */
+     /* Set height for demo purposes */
+    overflow: hidden; /* Prevent overflow during animation */
+  }
+  
+  #display-image {
+    opacity: 0; /* Start hidden */
+    transform: translateY(50px); /* Start slightly below */
+    animation: fadeSlideUp 1.2s ease-out forwards; /* Animation */
+  }
+  
+  @keyframes fadeSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px); /* Start position */
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(50px); /* Start position */
+      }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End position */
+    }
+  }
