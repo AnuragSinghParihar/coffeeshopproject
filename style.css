@@ -1,0 +1,38 @@
+body{
+    background-color: #54372B;
+    margin: 0;
+    padding: 0;
+}
+.half{
+    display:fixed;
+    background-color: #F7E1BC;
+    width: 45%;
+    margin-left: 55%;
+    height: 1081px;
+}
+.navbar{
+    justify-content: right;
+    padding-top: 20px;
+    margin-top: 0px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-size: 28px;
+    font-style:Leiko;
+
+
+
+}
+#heading{
+    font-style: dancingscript;
+}
+.contanier{
+    width: 55%;
+    background-image: url("https://www.figma.com/design/53rTerTY0EdN9Rm3qNMpTx/Coffee-Shop-Web-Design-(Community)?node-id=103-4&m=dev&t=mFX6D3uetlWnHTaz-1");
+}
