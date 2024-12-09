@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #2f1b1b;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -17,7 +17,7 @@ body {
 }
 
 .card {
-    background: #fff;
+    background: #E5D3B3;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -52,7 +52,7 @@ body {
 
 .card-subtitle {
     font-size: 14px;
-    color: #777;
+    color: black;
     margin-bottom: 10px;
 }
 
