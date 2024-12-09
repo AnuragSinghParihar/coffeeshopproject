@@ -61,7 +61,11 @@ h1 {
     margin: 0; 
     color: #2f1b1b;
     text-shadow: 0px 1px 1px #54372B;
+    margin-left: 1%;
+}
 
+h1:hover {
+    cursor: pointer;
 }
 
 #about {
@@ -70,11 +74,14 @@ h1 {
     text-align: center;
     border-radius: 20px;
     animation: fadeIn 0.5s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 
 }
 
 #about:hover {
-    box-shadow: 0px 4px 10px #000000;
+    box-shadow: 1px 3px 12px #000000;
+    transform: translateY(-5px);
 }
 
 #para2 {
@@ -135,33 +142,98 @@ p {
     line-height: 1.6;
 }
 
-.button {
-    background-color: #F7E1BC;
-    color: #221515;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius : 5px;
-    margin: 0 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.button:hover {
+.contactus {
     background-color: #54372B;
-    transform: scale(1.05);
-}
-
-.bottom {
-    background-color: #54372B;
-    padding: 2rem;
+    color: #fae6c3;
+    padding: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
-    margin-top: 2rem;
-    border-radius: 10px;
+    border-radius: 20px;
     animation: fadeIn 0.5s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contactus:hover {
+    box-shadow: 1px 3px 12px #000000;
+    transform: translateY(-5px);
 }
 
+.contactus h2 {
+    margin-bottom: 55px;
+}
+.contactus p {
+    color: white;
+    text-align: center;
+}
+.contactus a {
+    color: #F7E1BC;
+    text-align: center;
+
+}
+
+.CoffeeDescription p1{
+    color: #F7E1BC;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 73px;
+    font-weight: bold;
+    margin-top: 200px;
+    justify-content: center;
+    text-shadow: 1px 2px 4px black;
+    margin-bottom: 50%;
+
+}
+.CoffeeDescription {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 250px;
+    margin-left: 47%;
+    justify-content: center;
+    width: 50%;
+}
+
+.coffeedes {
+    margin-top: -28%;
+    margin-left: 15%;
+    height: 600px;
+    width: 900px;
+}
+
+
+
+
+
+
+.FoodDescription p1{
+    color: #F7E1BC;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 73px;
+    font-weight: bold;
+    margin-top: 100px;
+    justify-content: center;
+    text-shadow: 1px 2px 4px black;
+    margin-bottom: 10%;
+
+}
+.FoodDescription {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 200px;
+    margin-left: 6%;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 0%;
+}
+
+.fooddes {
+    margin-top: -22%;
+    margin-left: 66%;
+    height: 600px;
+    width: 900px;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
