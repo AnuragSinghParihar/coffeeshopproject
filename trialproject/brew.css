@@ -1,7 +1,6 @@
 body {
     font-family: Verdana, Tahoma, sans-serif;
     margin: 15px;
-    padding: 0;
     background-color: #221515;
     color: #F7E1BC;
     padding: 6px;
@@ -16,9 +15,12 @@ header {
     justify-content: space-between; 
     align-items: center; 
     box-shadow: 2px 3px 10px #000000;
-    width: 95%;
+    width: 97%;
 }
+hr {
+    margin-left: 5%;
 
+}
 .tagline p1{
     color: #F7E1BC;
     font-family: Verdana, Tahoma, sans-serif;
@@ -67,10 +69,14 @@ h1 {
 h1:hover {
     cursor: pointer;
 }
-
+h1 a{
+    color: #2f1b1b;
+}
 #about {
     background-color: #54372B;
     padding: 1rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     border-radius: 20px;
     animation: fadeIn 0.5s ease-in-out;
@@ -146,8 +152,8 @@ p {
     background-color: #54372B;
     color: #F7E1BC;
     padding: 1rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
@@ -274,7 +280,7 @@ p {
 
 .storeimg {
     height: 350px;
-    width: 350px;
+    width: 550px;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 .storeimg:hover {
@@ -292,19 +298,13 @@ p {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
+
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -315,6 +315,7 @@ ul{
 .footer{
 	background-color: #54372B;
     padding: 70px 0;
+    box-shadow: 1px -1px 8px black;
 }
 .footer-col{
    width: 25%;
@@ -327,6 +328,7 @@ ul{
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
+    text-shadow: 0px 1px 4px black;
 }
 .footer-col h4::before{
 	content: '';
@@ -347,7 +349,8 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #F7E1BC;
+    text-shadow: 0px 1px 4px black;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -359,7 +362,7 @@ ul{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: #F7E1BC;
 	margin:0 10px 10px 0;
 	text-align: center;
     justify-content: center;
