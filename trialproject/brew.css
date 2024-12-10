@@ -81,7 +81,7 @@ h1:hover {
 
 #about:hover {
     box-shadow: 1px 3px 12px #000000;
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
 #para2 {
@@ -144,7 +144,7 @@ p {
 
 .contactus {
     background-color: #54372B;
-    color: #fae6c3;
+    color: #F7E1BC;
     padding: 1rem;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -162,6 +162,7 @@ p {
 
 .contactus h2 {
     margin-bottom: 55px;
+    color: #fff2db;
 }
 .contactus p {
     color: white;
@@ -233,7 +234,54 @@ p {
     margin-left: 66%;
     height: 600px;
     width: 900px;
+    
 }
+
+
+
+
+
+.AmbienceDesign p1{
+    color: #F7E1BC;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 73px;
+    font-weight: bold;
+    margin-top: 200px;
+    justify-content: center;
+    text-shadow: 1px 2px 4px black;
+    margin-bottom: 50%;
+
+}
+.AmbienceDesign {
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 250px;
+    margin-left: 50%;
+    justify-content: center;
+    width: 50%;
+}
+
+.ambiencedes {
+    margin-top: -20%;
+    margin-left: 7%;
+    margin-bottom: 15%;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.storeimg {
+    height: 350px;
+    width: 350px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.storeimg:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 2px 8px black;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
